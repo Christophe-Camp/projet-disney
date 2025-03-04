@@ -1,0 +1,54 @@
+@use"../abstracts/typography" as *;
+
+.primary-boutton a {
+    font-family: $font-secondary;
+    font-size: 48px;
+}
+
+.secondary-boutton {
+    font-family: $font-primary;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: $font-secondary;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: $font-secondary;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: $font-secondary;
+    font-size: 25px;
+}
+
+h3 span {
+    font-family: $font-primary;
+}
+
+span {
+    font-size: $font-size-base;
+}
+
+p {
+    font-family: $font-primary;
+}
+
+a {
+    font-family: $font-primary;
+}
+
+li {
+    font-family: $font-primary;
+}
+
+@media (max-width: 768px){
+    h2 {
+        font-size: 43px;
+    }
+}

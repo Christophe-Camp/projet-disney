@@ -1,0 +1,10 @@
+@use"../abstracts/colors" as*;
+
+main,footer {
+    background-color: $color-bg;
+}
+
+span {
+    display: block;
+}
+

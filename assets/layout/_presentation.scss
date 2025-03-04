@@ -1,0 +1,22 @@
+@use"../abstracts/colors" as*;
+
+.nav-presentation { 
+    ul {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.3rem;
+        margin-bottom: 2.2rem;
+        a {
+        font-size: 20px;
+        } 
+    }
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border:  solid 2px $color-presentation;
+}

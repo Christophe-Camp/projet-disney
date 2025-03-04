@@ -1,0 +1,27 @@
+@use"../../abstracts/colors" as*;
+@use"../../abstracts/typography" as*;
+@use"../../abstracts/mixins" as*;
+
+.primary-boutton {
+    @include button-style;
+    background-color: $color-primary-boutton;
+    width: 90%;
+    height: 4.2rem;
+    font-family: 'avenir-book', sans-serif;
+    font-size: 18px;
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+}
+
+
+@media (max-width: 768px){
+    .d-none-m{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .d-none-d{
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+@media (max-width: 768px){
+    .cards-presentation {
+        display: none;
+    }
+    .nav-presentation{
+        margin: 0 7.68rem;
+    }
+    .card-mobile{
+        display: flex;
+        flex-direction: column;
+        //align-items: center;
+        //justify-content: center;
+        margin: 0 2rem;
+        gap: 1rem;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+    .card-mobil-inf {
+        display: flex;
+        gap: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+    .card-mobile-line {
+        display: flex;
+        gap: 0.5rem;
+    }
+}

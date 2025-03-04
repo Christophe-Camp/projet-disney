@@ -1,0 +1,19 @@
+@use"../abstracts/colors" as*;
+
+.menu {
+    position: absolute;
+    top: 0.7rem;
+    right: 4.3rem;
+}
+
+a{
+    color: $color-primary;
+}
+
+@media (max-width: 768px){
+    .menu {
+        top: 1.3rem;
+        right: 1.3rem;
+    }
+}
+

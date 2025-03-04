@@ -1,0 +1,22 @@
+@use"../../abstracts/variables" as*;
+
+.cards-presentation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: $spacing-one;
+    width: 90%;
+    gap: $spacing-one;
+    .card {
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .card-mobile{
+        display: none;
+    }
+}
